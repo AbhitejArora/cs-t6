@@ -23,3 +23,7 @@ yarn install # or `npm install`
 To run the backend, run `flask --app main run` from the `server` directory.
 
 To run the frontend, run `yarn run dev` or `npm run dev` from the `client` directory.
+
+# Chatbot
+
+Due to integration difficulties, we have opted to use streamlit. Simply install all required libraries and run `python chat.py`.
