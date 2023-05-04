@@ -19,7 +19,7 @@ import random
 if "history" not in st.session_state:
     st.session_state.history = []
 
-os.environ['OPENAI_API_KEY'] = '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'
+# os.environ['OPENAI_API_KEY'] = 'API-KEY'
 
 with open("data/y1crit.txt") as f:
     text_in = f.read()
